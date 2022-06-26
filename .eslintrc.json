@@ -1,0 +1,13 @@
+{
+  "extends": ["airbnb", "airbnb-typescript"],
+  "globals": {"document":"readonly"},
+  "rules": {
+    "semi":["error", "never"], 
+    "comma-dangle": "off",
+    "@typescript-eslint/semi": ["error", "never"],
+    "@typescript-eslint/comma-dangle": ["error", "never"]
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
